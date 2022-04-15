@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
-  background-color: #345df6;
   color: #fff;
-  width: 100%;
+  width: 65%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -11,6 +10,11 @@ export const Container = styled.main`
   text-align: center;
   justify-content: center;
   align-items: center;
+
+  button {
+    color: white;
+    font-size: 12pt;
+  }
 `;
 
 export const Logo = styled.img`

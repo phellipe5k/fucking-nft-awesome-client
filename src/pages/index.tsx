@@ -1,12 +1,9 @@
 import Main from 'components/Main';
+import HomePage from 'Template/Home';
 
 const Home = () => {
   return (
-    <Main
-      title="Next Js Boilerplate"
-      description="NextJS | Typescript | Storybook | Styled Components | Styled Icons | Jest | React Testing Libraries | Eslint | Prettier | PLOP | PWA"
-      illustrationSrc="/assets/motleyCrue.gif"
-    />
+    <HomePage />
   );
 };
 
