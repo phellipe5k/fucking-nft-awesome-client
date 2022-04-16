@@ -6,15 +6,8 @@ const myApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>React Avançado - Boilerplate</title>
-        <link
-          rel="shortcut icon"
-          href="https://reactavancado.com.br/img/icon-512.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          href="https://reactavancado.com.br/img/icon-512.png"
-        />
+        <title>Fucking NFT Awesome</title>
+        
         <link rel="manifest" href="/manifest.json" />
       </Head>
       <GlobalStyles />
