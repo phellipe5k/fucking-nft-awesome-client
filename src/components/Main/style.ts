@@ -14,6 +14,7 @@ export const Container = styled.main`
   button {
     color: white;
     font-size: 12pt;
+    margin: 12px 0 ;
   }
 `;
 

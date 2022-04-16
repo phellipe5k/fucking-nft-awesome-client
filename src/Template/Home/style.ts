@@ -28,18 +28,19 @@ export const Text = styled.p<{ size?: any, weight?: any }>`
         font-size: ${ size || '17pt' };
         font-weight: ${ weight || '600' } ;
         color: white;
+        margin: 4px 6px;
     `}
 `;
 
 export const Info = styled.div`
     background: linear-gradient(90deg,hsla(0,0%,100%,0) -1.52%,hsla(0,0%,100%,.024) 104.35%),rgba(162,96,243,.3);
+    backdrop-filter: blur(10px);
     width: 80%;
     padding: 2% 4%;
-    height: 150px;
+    height: 180px;
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     left: -35px;
     border-radius: 15px;
     border: 2px solid white;
-    backdrop-filter: blur(10px);
 `;
