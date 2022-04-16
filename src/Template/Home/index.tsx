@@ -49,7 +49,7 @@ const HomePage = ({ title = 'HomePage' }: Props) => {
                            <S.Text weight={400} size="16px">{ lastNft.name }</S.Text>
                            <S.Text  weight={100} size="14px">{ lastNft.description }</S.Text>
                            <S.Text style={{ marginBottom: '0px' }} weight={100} size="12px">Creator: {currentAccount}</S.Text>
-                                 <Button.Transparent onClick={ () => window.open(`https://rinkeby.rarible.com/token/${lastNft.address}:${lastNft.tokenId}`) } color="#FEDA03" border='black' textColor='black' >Check out on Rarible!</Button.Transparent> 
+                                {/* <Button.Transparent onClick={ () => window.open(`https://rinkeby.rarible.com/token/${lastNft.address}:${lastNft.tokenId}`) } color="#FEDA03" border='black' textColor='black' >Check out on Rarible!</Button.Transparent>  */}
                             </S.Info>
                         ) }
                   
