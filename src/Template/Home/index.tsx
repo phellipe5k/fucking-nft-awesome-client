@@ -34,7 +34,7 @@ const HomePage = ({ title = 'HomePage' }: Props) => {
     return (
         <S.Container>
           <Main
-          lastMintedNft={(d) => setLastNft(d)}
+          lastMintedNft={(d: any) => setLastNft(d)}
             account={ currentAccount }
               action={ setCurrentAccount }  
               title="Fucking NFT Awesome Collection"
